@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body{
+    background-color: #ffffff;
+    margin: 80px  50px;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 1024px;
+    padding-right: 20px;
+    margin-inline: 1.5rem;
+}
+
+section{
+    padding: 8rem 0 2rem;   
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li span{
+    color: #5fb4a2;
+}
+
+/* home */
+
+.home-section{
+    margin-top: 100px;
+}
+
+.home{
+    font-size: 20px;
+}
+
+.home_text{
+    font-size: 30px;
+
+}
+.btn{
+    height: 2.5rem;
+    width: 150px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgb(21, 51, 81);
+}
+
+/* about */
+
+/* .about-section{
+    row-gap: 3.5rem;
+    margin-top: 60px;
+} */
+.all_in{
+    display: flex;  
+    align-items: baseline;
+    justify-content: space-between;
+} 
+
+.all{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    margin:40px 80px;
+}
+
+.border-top{
+    border-bottom: 1px solid gray;  
+    padding-bottom: 30px;
+  
+}
+
+.border_bottom{
+    border-bottom: 1px solid gray; 
+    padding-bottom: 30px;
+}
+
+.all img{
+    width: 500px;
+    height: 500px;
+}
+
+.topic{
+    padding: 50px;  
+    padding-left: 80px;
+    width: 500px;
+    height: 500px;
+
+    
+}
+
+.set{
+display: grid;
+}
+.title{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.topic p{
+    padding-top: 10px;
+  
+}
+.btns{
+    height: 2.5rem;
+    width: 150px;
+    margin-top: 30px;
+    border: 1 solid black;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* customerize */
+
+
+/* .large{
+    align-items: center;
+} */
+
+.cust{
+    display: grid;
+    grid-template-columns: repeat(3, ifr); 
+    
+
+}
+
+.tourch{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+form input{
+    background-color: rgb(228, 226, 226);
+    height: 30px;
+    width: 350px;
+    border: none;
+    padding: 10px;
+
+}
+
+form textarea{
+    width: 350px;
+}
+
+ 
+
+
+
+
+
+
+
